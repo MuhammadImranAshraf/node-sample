@@ -4,7 +4,7 @@
 cd /var/www/html/sample-app
 
 # Start the Node.js application using PM2
-pm2 start app.js --name my-sample-app
+pm2 start index.js --name my-sample-app
 
 # Ensure PM2 restarts on system reboot
 pm2 startup
