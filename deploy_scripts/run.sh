@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 cd /home/ec2-user
-mkdir node
+sudo mkdir node
 cd node
 npm install
 npm start
