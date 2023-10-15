@@ -1,13 +1,7 @@
 #!/bin/bash
 
 # Navigate to the application directory
-cd /var/www/html/sample-app
+cd /var/www/html/myapp
 
-# Start the Node.js application using PM2
-pm2 start index.js --name my-sample-app
-
-# Ensure PM2 restarts on system reboot
-pm2 startup
-
-# Save the current process list for restarts
-pm2 save
+# Start the application process using PM2
+pm2 start index.js --name myapp

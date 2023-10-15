@@ -2,10 +2,10 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /var/www/html/sample-app
+    destination: /var/www/html/myapp
 hooks:
-  BeforeInstall:
-    - location: scripts/install_node_and_pm2.sh
+  ApplicationStop:
+    - location: scripts/stop_server.sh
       timeout: 300
       runas: ec2-user
   AfterInstall:
