@@ -13,11 +13,11 @@ permissions:
 hooks:
   BeforeInstall:
     - location: deploy_scripts/install.sh
-      timeout: 300
+      timeout: 120
       runas: root
   ApplicationStart:
     - location: deploy_scripts/run.sh
-      timeout: 120
+      timeout: 30
       runas: ec2-user
   # ValidateService:
   #   - location: deploy_scripts/validate.sh
