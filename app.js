@@ -15,6 +15,6 @@ app.get("/about", function (req, res) {
   res.render("pages/about", { title: "about" });
 });
 
-app.listen(8080, function () {
-  console.log("server is up on port 8080");
+app.listen(3000, function () {
+  console.log("server is up on port 3000");
 });

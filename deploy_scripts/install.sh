@@ -7,5 +7,6 @@
 # pm2 update
 
 # delete existing bundle
+pm2 stop all
 cd /home/ec2-user
 rm -rf node

@@ -15,4 +15,4 @@ export NVM_DIR="/home/ec2-user/.nvm"
 npm install
 
 # Start the application using PM2 to keep it running in the background
-npm start
+pm2  restart all
