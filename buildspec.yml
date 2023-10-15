@@ -21,4 +21,6 @@ phases:
 artifacts:
   files:
     - build.zip
-  discard-paths: yes
+
+
+  
