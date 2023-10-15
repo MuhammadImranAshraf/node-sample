@@ -4,4 +4,4 @@
 cd /var/www/html/myapp
 
 # Start the application process using PM2
-pm2 start index.js --name myapp
+node index.js --name myapp
